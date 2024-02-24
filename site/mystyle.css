@@ -60,3 +60,12 @@ p
 {
   text-align: center;
 }
+
+a:hover {
+    color: #111;
+    text-decoration: underline
+}
+
+a {
+    background-color: transparent
+}
