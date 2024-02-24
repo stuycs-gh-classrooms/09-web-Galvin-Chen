@@ -63,8 +63,13 @@ p
 
 a:hover {
     color: #111;
-    text-decoration: underline
+    text-decoration: underline;
 }
+
+a {
+  text-decoration: none;
+}
+  
 
 a {
     background-color: transparent
