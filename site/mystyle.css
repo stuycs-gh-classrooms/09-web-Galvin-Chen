@@ -6,7 +6,8 @@ body {
   width: 95%;
   margin: auto;
   background-color: #424769;
-  border-radius: 20px;  
+  border-radius: 20px;
+  color: F6B17A;
 }
 
 nav {
@@ -54,7 +55,7 @@ li {
 h1 {
   text-align: center;
   text-decoration: underline;
-  color: F6B17A;
+  color: #F6B17A;
 }
 
 p
