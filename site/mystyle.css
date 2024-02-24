@@ -65,6 +65,7 @@ p
 a:hover {
     color: #111;
     text-decoration: underline;
+  font-weight: bold;
 }
 
 a {
