@@ -64,10 +64,12 @@ p
 }
 
 a:hover {
-    color: #111;
+    color: #ffcda6;
     text-decoration: underline;
+  text-decoration-color: #ffcda6;
   font-weight: bold;
 }
+
 
 a {
   text-decoration: none;
