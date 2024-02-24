@@ -74,9 +74,8 @@ a:hover {
 
 a {
   text-decoration: none;
+  background-color: transparent;
+  color: #F6B17A;
 }
   
 
-a {
-    background-color: transparent
-}
