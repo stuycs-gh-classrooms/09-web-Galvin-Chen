@@ -27,11 +27,11 @@ li {
   color: F6B17A;
 }
 .current {
-  background-color: #CED0CE;
+  background-color: #22092C;
   border-radius: 10px 10px 0 0;
 }
 .navlink {
-  color: #4C3B4D;
+  color: #F6B17A;;
   text-decoration: none;
   font-variant: all-small-caps;
 }
@@ -54,12 +54,12 @@ li {
 h1 {
   text-align: center;
   text-decoration: underline;
+  color: F6B17A;
 }
 
 p
 {
   text-align: center;
-  color: F6B17A;
 }
 
 a:hover {
