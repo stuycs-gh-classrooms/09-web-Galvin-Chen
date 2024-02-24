@@ -1,18 +1,18 @@
 html {
   font-size: 24px;
-  background-color: #fa978c;
+  background-color: #2D3250;
 }
 body {
   width: 95%;
   margin: auto;
-  background-color: #fcaba2;
+  background-color: #424769;
   border-radius: 20px;  
 }
 
 /*navigation list*/
 nav {
   margin: auto;
-  background-color: #9FB8AD;
+  background-color: #7077A1;
   font-size: 1.5em;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
