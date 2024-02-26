@@ -70,11 +70,3 @@ a {
   background-color: transparent;
   color: #F6B17A;
 }
-
-.center
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:60%;
-}
