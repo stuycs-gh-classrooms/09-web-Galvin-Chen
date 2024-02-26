@@ -32,13 +32,7 @@ li {
   background-color: #22092C;
   border-radius: 10px 10px 0 0;
 
-.center {
-  text-align: center;
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .navlink {
   color: #F6B17A;;
   text-decoration: none;
@@ -76,5 +70,11 @@ a {
   background-color: transparent;
   color: #F6B17A;
 }
+
+  img {
+    float: left;
+    width: 50%
+    text-align: center;
+  }
 
 
