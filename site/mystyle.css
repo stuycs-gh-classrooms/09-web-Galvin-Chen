@@ -33,8 +33,11 @@ li {
   border-radius: 10px 10px 0 0;
 
 .center {
-  width: auto;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  width: auto;
 }
   
 }
