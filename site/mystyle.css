@@ -30,6 +30,13 @@ li {
 .current {
   background-color: #22092C;
   border-radius: 10px 10px 0 0;
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
 }
 .navlink {
   color: #F6B17A;;
