@@ -31,20 +31,19 @@ li {
   background-color: #22092C;
   border-radius: 10px 10px 0 0;
 
-.center {
+img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 65%;
 }
+  
 }
 .navlink {
   color: #F6B17A;;
   text-decoration: none;
   font-variant: all-small-caps;
 }
-/*end navigation list .*/
-
 
 h2 {
   text-align: center;
