@@ -1,0 +1,115 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>DW's Fractals</title>
+  </head>
+
+  <body>
+    <h1>Fractal <s> Fun</s> Pain!</h1>
+    <div>
+      <h2>Koch Curve</h2>
+      <p>
+        Basic curve <code>koch_curve(t, 4, 20)</code>
+      </p>
+      <img src="koch-basic.png" width="50%">
+      <p>
+       <code></code>
+      </p>
+      <img src="koch.png" width="50%">
+      <pre>        <code>
+    def draw_koch(t, dep, leng):
+    
+    t.speed('fastest')
+    min = 0
+    max = 255
+    red = random.randint(min, max)
+    green = random.randint(min, max)
+    blue = random.randint(min, max)
+    if (dep == 1):
+        t.fd(leng)
+        t.rt(1)
+    else:
+        t.pencolor(red, green, blue)
+        draw_koch(t, dep-1, leng)
+        t.pencolor(red, green, blue)
+        t.lt(60)
+        
+        draw_koch(t, dep-1, leng)
+        t.pencolor(red, green, blue)
+        t.rt(120)
+        draw_koch(t, dep-1, leng)
+        t.pencolor(red, green, blue)
+        t.lt(60)
+        draw_koch(t, dep-1, leng)
+        
+
+        </code>
+      </pre>
+    </div>
+
+    <hr>
+
+    <div>
+      <h2>Sierpinski Triangle</h2>
+      <p>
+        Basic triangle <code>sierpinski(t, 5, 200)</code>
+      </p>
+      <img src="sierpinski-basic.png">
+      <p>
+   <code></code>
+      </p>
+      <img src="sierpinski.png">
+      <pre>        <code>
+    def sierpinski(t, depth, size, scale_factor=1):
+        if depth == 1:
+            t.circle(size)
+        else:
+            t.speed('fastest')
+            t.pencolor('red')
+            sierpinski(t, depth-1, size/2)
+            t.pu()
+            t.fd(size/2)
+            t.pd()
+            t.pencolor('black')
+            sierpinski(t, depth-1, size/2)
+            t.pu()
+            t.bk(size/2)
+            t.lt(60)
+            t.fd(size/2)
+            t.pd()
+            t.rt(60)
+            t.pencolor('cyan')
+            sierpinski(t, depth-1, size/2)
+            t.rt(120)
+            t.pu()
+            t.fd(size/2)
+            t.lt(120)
+            t.pd()
+        </code>
+      </pre>
+    </div>
+
+    <hr>
+
+    <div>
+      <h2>Trees</h2>
+      <p>
+        Basic tree <code>tree(t, 4, 50, 20)</code>
+      </p>
+      <img src="tree-basic.png">
+      <p>
+       
+        </p><ul>
+         
+        <code></code>
+      <p></p>
+      <img src="tree.png">
+      <pre>        <code>
+
+        </code>
+      </pre>
+    </div>
+
+  
+
+
+</body></html>
