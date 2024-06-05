@@ -1,0 +1,94 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+
+/* Keyframe animation for typewriter effect */
+@keyframes typing {
+  0% {
+    opacity: 0; /* Initially hide the characters */
+  }
+  50% {
+    opacity: 1; /* Gradually reveal the characters */
+  }
+  100% {
+    opacity: 1; /* Ensure characters remain visible */
+  }
+}
+
+/* Cursor blinking animation */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Styling for the cursor */
+.typewriter-text p {
+  overflow: hidden; /* Ensures the text is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  text-align: center;
+}
+
+.typewriter-text p span {
+  display: inline-block;
+  opacity: 0; /* Initially hide the letters */
+  animation: typing 3s steps(10, end) forwards, blink .75s step-end infinite;
+}
+
+.container{
+ background-color: black; /* Black background */
+  color: white; /* White text color */
+  border: 2px solid white; /* White border */
+  padding: 20px; /* Padding around the text */
+  margin: 0 auto; /* Center the text box horizontally */
+  width: 50%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+}
+	
+	
+.typewriter-text p:nth-child(1) span {
+  animation-delay: 0s; /* No delay for the first line */
+}
+
+.typewriter-text p:nth-child(2) span {
+  animation-delay: 3s; /* Delay for the second line */
+}
+
+.typewriter-text p:nth-child(3) span {
+  animation-delay: 6s; /* Delay for the third line */
+}
+
+.typewriter-text p:nth-child(4) span {
+  animation-delay: 9s; /* No delay for the first line */
+}
+
+.typewriter-text p:nth-child(5) span {
+  animation-delay: 12s; /* Delay for the second line */
+}
+
+.typewriter-text p:nth-child(6) span {
+  animation-delay: 15s; /* Delay for the third line */
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+.typewriter-text p:nth-child(7) span {
+  animation-delay: 18s; /* Delay for the second line */
+}
+
+.typewriter-text p:nth-child(8) span {
+  animation-delay: 21s; /* Delay for the third line */
+}
