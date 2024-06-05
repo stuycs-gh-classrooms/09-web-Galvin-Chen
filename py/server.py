@@ -1,3 +1,5 @@
+#!/usr/bin/python
+print('Content-type: text/html\n')
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import os
 
